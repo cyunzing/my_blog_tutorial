@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="A layout example that shows off a blog page with a list of posts.">
 
-	<title>Test Blog</title>
+	<title>CYUNZING Blog</title>
 	<link rel="stylesheet" href="http://labbfile.oss.aliyuncs.com/courses/487/pure-min.css">
 	<<link rel="stylesheet" href="http://labbfile.oss.aliyuncs.com/courses/487/grids-responsive-min.css">
 	<link rel="stylesheet" href="http://labbfile.oss.aliyuncs.com/courses/487/blog.css">
@@ -14,16 +14,28 @@
 	<div id="layout" class="pure-g">
 		<div class="slidebar pure-u-1 pure-u-md-1-4">
 			<div class="header">
-				<h1 class="brand-title">Test Blog</h1>
+				<h1 class="brand-title"><a href="{% url "home" %}">CYUNZING Blog</a></h1>
 				<h2 class="brand-taglist">Snow Memory</h2>
 				<nav class="nav">
 					<ul class="nav-list">
 						<li class="nav-item">
+	                        <a class="button-success pure-button" href="/">Home</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="button-success pure-button" href="/">Archive</a>
+	                    </li>
+						<li class="nav-item">
 							<a class="pure-button" href="http://github.com/cyunzing">Github</a>
 						</li>
 						<li class="bav-item">
-							<a class="pure-button" href="http://weibo.com/CYUNZING">Weibo</a>
+							<a class="pure-button" href="http://weibo.com/u/3226192710">Weibo</a>
 						</li>
+						<li class="nav-item">
+	                        <a class="button-success pure-button" href="/">Pages</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="button-success pure-button" href="/">About Me</a>
+	                    </li>
 					</ul>
 				</nav>
 			</div>
